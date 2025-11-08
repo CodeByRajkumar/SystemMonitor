@@ -15,21 +15,6 @@ It reads data directly from the `/proc` filesystem, similar to the `top` command
 
 ---
 
-## Project Structure
-SystemMonitor/
-├── include/
-│ ├── process.h
-│ └── sysinfo.h
-├── src/
-│ ├── main.cpp
-│ ├── process.cpp
-│ └── sysinfo.cpp
-├── Makefile
-├── README.md
-└── sysmon (compiled binary)
-
-
----
 
 ## How It Works
 - **process.cpp** → Reads process statistics from `/proc/[pid]/stat`.  
