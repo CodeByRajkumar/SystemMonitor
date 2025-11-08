@@ -32,3 +32,7 @@ Make sure you are using a Linux environment (Ubuntu recommended).
 ```bash
 git clone https://github.com/CodeByRajkumar/SystemMonitor.git
 cd SystemMonitor
+```
+- **Compile the Project** → `make`
+- **Run the Monitor** → `./sysmon`
+- **Clean Build Files** → `make clean`
